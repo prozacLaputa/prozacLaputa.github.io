@@ -38,6 +38,13 @@ const featuredWorks = [
 
 const moreWorks = [
   {
+    title: "Pocket Observatory",
+    type: "MACOS / SWIFT",
+    description: "把兴趣支出、纯文本想买清单与购买后预算预演，收进一个安静的原生应用。",
+    image: "/projects/pocket-observatory.png",
+    href: "https://github.com/prozacLaputa/pocket-observatory",
+  },
+  {
     title: "起身岛",
     type: "MACOS / SWIFT",
     description: "让住在 Mac 顶部的小水滴，温柔提醒你喝口水、站起来走一会。",
@@ -98,7 +105,7 @@ export default function Home() {
 
       <section className="works" id="works" aria-labelledby="works-title">
         <div className="section-heading">
-          <p>SELECTED WORKS</p><h2 id="works-title">近期作品</h2><span>03 / 08</span>
+          <p>SELECTED WORKS</p><h2 id="works-title">近期作品</h2><span>03 / 09</span>
         </div>
         <div className="work-list">
           {featuredWorks.map((work) => (
@@ -130,8 +137,8 @@ export default function Home() {
       <section className="archive" aria-labelledby="archive-title">
         <div className="archive-heading">
           <p>MORE ORIGINAL WORKS</p>
-          <h2 id="archive-title">还有五件</h2>
-          <p>不是填满列表，而是解决五个我自己遇到过的问题。</p>
+          <h2 id="archive-title">还有六件</h2>
+          <p>不是填满列表，而是解决六个我自己遇到过的问题。</p>
         </div>
         <div className="archive-grid">
           {moreWorks.map((work, index) => (
