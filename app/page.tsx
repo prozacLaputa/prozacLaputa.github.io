@@ -38,6 +38,13 @@ const featuredWorks = [
 
 const moreWorks = [
   {
+    title: "起身岛",
+    type: "MACOS / SWIFT",
+    description: "让住在 Mac 顶部的小水滴，温柔提醒你喝口水、站起来走一会。",
+    image: "/projects/standup-island.png",
+    href: "https://github.com/prozacLaputa/standup-island",
+  },
+  {
     title: "Free3 Mapper",
     type: "MACOS / SWIFT",
     description: "不依赖原厂客户端，在 macOS 上重新定义 Free3 的 Type-C 与蓝牙按键。",
@@ -91,7 +98,7 @@ export default function Home() {
 
       <section className="works" id="works" aria-labelledby="works-title">
         <div className="section-heading">
-          <p>SELECTED WORKS</p><h2 id="works-title">近期作品</h2><span>03 / 07</span>
+          <p>SELECTED WORKS</p><h2 id="works-title">近期作品</h2><span>03 / 08</span>
         </div>
         <div className="work-list">
           {featuredWorks.map((work) => (
@@ -123,8 +130,8 @@ export default function Home() {
       <section className="archive" aria-labelledby="archive-title">
         <div className="archive-heading">
           <p>MORE ORIGINAL WORKS</p>
-          <h2 id="archive-title">还有四件</h2>
-          <p>不是填满列表，而是解决四个我自己遇到过的问题。</p>
+          <h2 id="archive-title">还有五件</h2>
+          <p>不是填满列表，而是解决五个我自己遇到过的问题。</p>
         </div>
         <div className="archive-grid">
           {moreWorks.map((work, index) => (
