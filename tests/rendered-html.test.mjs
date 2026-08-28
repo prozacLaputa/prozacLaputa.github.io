@@ -8,7 +8,7 @@ test("exports a complete portfolio homepage", async () => {
   const html = await readFile(new URL("../dist/client/index.html", import.meta.url), "utf8");
   assert.match(html, /Prozac Laputa — Original Works/);
   assert.match(html, /把自己的问题/);
-  const expectedOrder = ["Vibe Canvas", "FlashThought", "问筊", "Pocket Observatory", "起身岛", "Free3 Mapper", "Decision UI for Codex", "Codex Usage HUD", "快捷启动"];
+  const expectedOrder = ["Vibe Canvas", "FlashThought", "问筊", "口袋观测站", "起身岛", "Free3 Mapper", "Decision UI for Codex", "Codex Usage HUD", "快捷启动"];
   let previousPosition = -1;
   for (const work of expectedOrder) {
     assert.match(html, new RegExp(work));

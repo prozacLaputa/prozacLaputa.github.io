@@ -38,7 +38,7 @@ const featuredWorks = [
 
 const moreWorks = [
   {
-    title: "Pocket Observatory",
+    title: "口袋观测站",
     type: "MACOS / SWIFT",
     description: "把兴趣支出、纯文本想买清单与购买后预算预演，收进一个安静的原生应用。",
     image: "/projects/pocket-observatory.png",
