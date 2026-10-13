@@ -59,6 +59,14 @@ const moreWorks = [
     href: "https://github.com/prozacLaputa/free3-mapper-macos",
   },
   {
+    title: "微光",
+    type: "STACKCHAN / MACOS",
+    description: "静音的 StackChan 桌面伙伴：任务提醒、猫系互动、番茄钟和便签。",
+    image: "/projects/stackchan-weiguang.png",
+    imageFit: "contain" as const,
+    href: "https://github.com/prozacLaputa/stackchan-weiguang",
+  },
+  {
     title: "Decision UI for Codex",
     type: "AGENT SKILL",
     description: "只在真正需要判断时，把文本选项变成 Codex 原生可点击决策。",
@@ -105,7 +113,7 @@ export default function Home() {
 
       <section className="works" id="works" aria-labelledby="works-title">
         <div className="section-heading">
-          <p>SELECTED WORKS</p><h2 id="works-title">近期作品</h2><span>03 / 09</span>
+          <p>SELECTED WORKS</p><h2 id="works-title">近期作品</h2><span>03 / 10</span>
         </div>
         <div className="work-list">
           {featuredWorks.map((work) => (
@@ -137,13 +145,13 @@ export default function Home() {
       <section className="archive" aria-labelledby="archive-title">
         <div className="archive-heading">
           <p>MORE ORIGINAL WORKS</p>
-          <h2 id="archive-title">还有六件</h2>
-          <p>不是填满列表，而是解决六个我自己遇到过的问题。</p>
+          <h2 id="archive-title">还有七件</h2>
+          <p>不是填满列表，而是解决七个我自己遇到过的问题。</p>
         </div>
         <div className="archive-grid">
           {moreWorks.map((work, index) => (
             <a className="archive-card" href={work.href} target="_blank" rel="noreferrer" key={work.title}>
-              <div className="archive-image"><Image src={work.image} alt={`${work.title} 界面截图`} fill sizes="(max-width: 900px) 100vw, 50vw" unoptimized /></div>
+              <div className="archive-image"><Image src={work.image} alt={`${work.title} 界面截图`} fill sizes="(max-width: 900px) 100vw, 50vw" style={work.imageFit ? { objectFit: work.imageFit, backgroundColor: "#000" } : undefined} unoptimized /></div>
               <div className="archive-meta"><span>{String(index + 4).padStart(2, "0")}</span><span>{work.type}</span></div>
               <h3>{work.title}</h3>
               <p>{work.description}</p>

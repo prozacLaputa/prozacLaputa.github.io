@@ -2,6 +2,13 @@
 
 本项目的重要变更会记录在此文件中，格式参考 [Keep a Changelog](https://keepachangelog.com/zh-CN/1.1.0/)。
 
+## [Unreleased]
+
+### 新增
+
+- 收录微光 StackChan 桌面伙伴，使用设备实际显示截图。
+- 总作品数更新为 10，保留原有作品相对顺序；微光位于 Free3 Mapper 之后。
+
 ## [1.1.1] - 2026-08-28
 
 ### 变更

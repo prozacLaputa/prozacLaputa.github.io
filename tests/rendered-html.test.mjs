@@ -8,7 +8,7 @@ test("exports a complete portfolio homepage", async () => {
   const html = await readFile(new URL("../dist/client/index.html", import.meta.url), "utf8");
   assert.match(html, /Prozac Laputa — Original Works/);
   assert.match(html, /把自己的问题/);
-  const expectedOrder = ["Vibe Canvas", "FlashThought", "问筊", "口袋观测站", "起身岛", "Free3 Mapper", "Decision UI for Codex", "Codex Usage HUD", "快捷启动"];
+  const expectedOrder = ["Vibe Canvas", "FlashThought", "问筊", "口袋观测站", "起身岛", "Free3 Mapper", "微光", "Decision UI for Codex", "Codex Usage HUD", "快捷启动"];
   let previousPosition = -1;
   for (const work of expectedOrder) {
     assert.match(html, new RegExp(work));
@@ -24,6 +24,7 @@ test("keeps all local project images and Pages metadata", async () => {
     "public/projects/chaoshan-jiaobei.png",
     "public/projects/vibe-canvas.png",
     "public/projects/free3-mapper.png",
+    "public/projects/stackchan-weiguang.png",
     "public/projects/flash-thought.png",
     "public/projects/codex-usage-hud.jpg",
     "public/projects/codex-decision-ui.png",
