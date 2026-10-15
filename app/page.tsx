@@ -38,6 +38,13 @@ const featuredWorks = [
 
 const moreWorks = [
   {
+    title: "CoMind 驾驶舱",
+    type: "MACOS / SWIFTUI · EXPERIMENTAL",
+    description: "把长期主题、Codex 会话和已有笔记连成一个原生 Mac 工作台。截图为合成示例。",
+    image: "/projects/comind-cockpit.jpg",
+    href: "https://github.com/prozacLaputa/comind-cockpit",
+  },
+  {
     title: "口袋观测站",
     type: "MACOS / SWIFT",
     description: "把兴趣支出、纯文本想买清单与购买后预算预演，收进一个安静的原生应用。",
@@ -113,7 +120,7 @@ export default function Home() {
 
       <section className="works" id="works" aria-labelledby="works-title">
         <div className="section-heading">
-          <p>SELECTED WORKS</p><h2 id="works-title">近期作品</h2><span>03 / 10</span>
+          <p>SELECTED WORKS</p><h2 id="works-title">近期作品</h2><span>03 / 11</span>
         </div>
         <div className="work-list">
           {featuredWorks.map((work) => (
@@ -145,8 +152,8 @@ export default function Home() {
       <section className="archive" aria-labelledby="archive-title">
         <div className="archive-heading">
           <p>MORE ORIGINAL WORKS</p>
-          <h2 id="archive-title">还有七件</h2>
-          <p>不是填满列表，而是解决七个我自己遇到过的问题。</p>
+          <h2 id="archive-title">还有八件</h2>
+          <p>不是填满列表，而是解决八个我自己遇到过的问题。</p>
         </div>
         <div className="archive-grid">
           {moreWorks.map((work, index) => (

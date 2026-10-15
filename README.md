@@ -11,6 +11,7 @@
 - Vibe Canvas：随 Codex 对话生长的本地思考画板
 - FlashThought：macOS 闪念捕捉器
 - 问筊：潮汕跋杯 3D 浏览器体验
+- CoMind 驾驶舱：连接 Codex 会话与已有笔记的原生 Mac 工作台（实验版）
 - 口袋观测站：本地兴趣支出与购买预算预演
 - 起身岛：Mac 顶部的喝水与起身提醒
 - Free3 Mapper：Free3 的 macOS 独立映射工具

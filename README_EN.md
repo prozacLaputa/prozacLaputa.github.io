@@ -11,6 +11,7 @@ The personal portfolio of [Prozac Laputa](https://github.com/prozacLaputa), feat
 - Vibe Canvas: a local-first thinking canvas that grows with Codex conversations
 - FlashThought: a native macOS thought-capture app
 - Chaoshan Jiaobei: a quiet 3D ritual experience for the browser
+- CoMind Cockpit: native Mac workspace for Codex and existing notes (experimental)
 - Pocket Observatory: local hobby spending and purchase-budget previews
 - Standup Island: gentle hydration and movement reminders on Mac
 - Free3 Mapper: independent macOS key mapping for the Free3 device
