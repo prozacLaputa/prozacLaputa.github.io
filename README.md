@@ -14,7 +14,7 @@
 - 口袋观测站：本地兴趣支出与购买预算预演
 - 起身岛：Mac 顶部的喝水与起身提醒
 - Free3 Mapper：Free3 的 macOS 独立映射工具
-- 微光：StackChan 静音任务提醒、番茄钟与便签
+- 微光：StackChan 任务接力、猫系互动、专注、音乐与可选 AirPods 语音
 - Decision UI for Codex：原生可点击决策 Skill
 - Codex Usage HUD：Codex 桌面端额度悬浮标签
 - 快捷启动：macOS 菜单栏快捷启动器

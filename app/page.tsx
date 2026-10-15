@@ -61,7 +61,7 @@ const moreWorks = [
   {
     title: "微光",
     type: "STACKCHAN / MACOS",
-    description: "静音的 StackChan 桌面伙伴：任务提醒、猫系互动、番茄钟和便签。",
+    description: "StackChan 桌面伙伴：任务接力、猫系互动、专注与音乐，戴上 AirPods 还可以语音聊天。",
     image: "/projects/stackchan-weiguang.png",
     imageFit: "contain" as const,
     href: "https://github.com/prozacLaputa/stackchan-weiguang",

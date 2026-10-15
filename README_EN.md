@@ -14,7 +14,7 @@ The personal portfolio of [Prozac Laputa](https://github.com/prozacLaputa), feat
 - Pocket Observatory: local hobby spending and purchase-budget previews
 - Standup Island: gentle hydration and movement reminders on Mac
 - Free3 Mapper: independent macOS key mapping for the Free3 device
-- Weiguang: a quiet StackChan task companion with focus sessions and sticky notes
+- Weiguang: a StackChan companion for task recaps, focus, music and optional AirPods voice
 - Decision UI for Codex: native clickable decisions at the right moment
 - Codex Usage HUD: a compact quota indicator for Codex Desktop
 - AppHotkeyTool: a lightweight macOS menu-bar app launcher
